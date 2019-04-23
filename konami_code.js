@@ -25,5 +25,6 @@ function init() {
     }else{
       i=0;
     }
+    unit();
   });
 }
