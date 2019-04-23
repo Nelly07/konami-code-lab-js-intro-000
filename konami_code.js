@@ -26,4 +26,5 @@ function init() {
       i=0;
     }
   });
+  init();
 }
