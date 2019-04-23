@@ -14,8 +14,7 @@ const codes = [
 function init() {
   // your code here
   let i = 0;
-  document.body.addEventListener('keydown',triggerKeyDown);
-  function triggerKeyDown(e){
+  document.body.addEventListener('keydown',(e)=>{
     const key = e.key;
     if (key === codes[i]){
       i++;
